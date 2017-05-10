@@ -8,20 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		CD1A6A2F1E94EB0B00208562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A6A2E1E94EB0B00208562 /* AppDelegate.swift */; };
-		CD1A6A311E94EB0B00208562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A6A301E94EB0B00208562 /* ViewController.swift */; };
 		CD1A6A341E94EB0B00208562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1A6A321E94EB0B00208562 /* Main.storyboard */; };
-		CD1A6A361E94EB0B00208562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1A6A351E94EB0B00208562 /* Assets.xcassets */; };
 		CD1A6A391E94EB0B00208562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1A6A371E94EB0B00208562 /* LaunchScreen.storyboard */; };
+		CD1A6A451E94F6AD00208562 /* PocketSpotTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A6A441E94F6AD00208562 /* PocketSpotTVC.swift */; };
+		CD1A6A471E94F6DF00208562 /* PocketSpotTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A6A461E94F6DF00208562 /* PocketSpotTVCell.swift */; };
+		CD43DF4D1EC1CA5E00D6EC72 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43DF4C1EC1CA5E00D6EC72 /* DataManager.swift */; };
+		CD52A6B91E9CE1A2004FC259 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52A6B81E9CE1A2004FC259 /* MenuTableViewCell.swift */; };
+		CD52A6BB1E9CE2DB004FC259 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52A6BA1E9CE2DB004FC259 /* MenuTableViewController.swift */; };
+		CD9358E71E96609F000C0C4D /* addSpot.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9358E61E96609F000C0C4D /* addSpot.png */; };
+		CD9B41481EA6FDB000C9149B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B41471EA6FDB000C9149B /* Country.swift */; };
+		CD9B414B1EA71AC800C9149B /* SectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B414A1EA71AC800C9149B /* SectionInfo.swift */; };
+		CDA92F361EA615E5006C4BF9 /* ContinentalGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA92F351EA615E5006C4BF9 /* ContinentalGroup.swift */; };
+		CDB96D2C1EB8EB0300205A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB96D2B1EB8EB0300205A99 /* Assets.xcassets */; };
+		CDBD65551E9E2911000FB92D /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBD65541E9E2911000FB92D /* MenuCell.xib */; };
+		CDBD65591E9E2C44000FB92D /* TripListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBD65581E9E2C44000FB92D /* TripListCell.xib */; };
+		CDBD655B1E9E2E34000FB92D /* TripListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD655A1E9E2E34000FB92D /* TripListTableViewCell.swift */; };
+		CDBD655D1E9E2FD3000FB92D /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD655C1E9E2FD3000FB92D /* TripListViewController.swift */; };
+		CDBD655F1E9E3A28000FB92D /* CountryInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDBD655E1E9E3A28000FB92D /* CountryInfo.plist */; };
+		CDBD65631E9E4AC7000FB92D /* CountrySelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD65621E9E4AC7000FB92D /* CountrySelectTableViewController.swift */; };
+		CDBD65651E9E4B1B000FB92D /* CountrySelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD65641E9E4B1B000FB92D /* CountrySelectTableViewCell.swift */; };
+		CDBD65671E9E4DF1000FB92D /* ContinentalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBD65661E9E4DF1000FB92D /* ContinentalView.xib */; };
+		CDBD656D1E9E55D0000FB92D /* ContinentalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD656C1E9E55D0000FB92D /* ContinentalView.swift */; };
+		CDBD65701E9E5AA4000FB92D /* arrowOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBD656E1E9E5AA4000FB92D /* arrowOpen.png */; };
+		CDBD65711E9E5AA4000FB92D /* arrowClose.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBD656F1E9E5AA4000FB92D /* arrowClose.png */; };
+		CDC597071EAF4F09007092B6 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC597061EAF4F09007092B6 /* ScheduleTableViewController.swift */; };
+		CDC597091EAF5E5A007092B6 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC597081EAF5E5A007092B6 /* ScheduleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD1A6A2B1E94EB0B00208562 /* TravelByMyself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelByMyself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1A6A2E1E94EB0B00208562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD1A6A301E94EB0B00208562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD1A6A331E94EB0B00208562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD1A6A351E94EB0B00208562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1A6A381E94EB0B00208562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1A6A3A1E94EB0B00208562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1A6A441E94F6AD00208562 /* PocketSpotTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PocketSpotTVC.swift; path = ../PocketSpotTVC.swift; sourceTree = "<group>"; };
+		CD1A6A461E94F6DF00208562 /* PocketSpotTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PocketSpotTVCell.swift; sourceTree = "<group>"; };
+		CD43DF4C1EC1CA5E00D6EC72 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CD52A6B81E9CE1A2004FC259 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		CD52A6BA1E9CE2DB004FC259 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		CD9358E61E96609F000C0C4D /* addSpot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addSpot.png; sourceTree = "<group>"; };
+		CD9B41471EA6FDB000C9149B /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = ../Country.swift; sourceTree = "<group>"; };
+		CD9B414A1EA71AC800C9149B /* SectionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionInfo.swift; sourceTree = "<group>"; };
+		CDA92F351EA615E5006C4BF9 /* ContinentalGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinentalGroup.swift; path = ../ContinentalGroup.swift; sourceTree = "<group>"; };
+		CDB96D2B1EB8EB0300205A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBD65541E9E2911000FB92D /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		CDBD65581E9E2C44000FB92D /* TripListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripListCell.xib; path = ../TripListCell.xib; sourceTree = "<group>"; };
+		CDBD655A1E9E2E34000FB92D /* TripListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripListTableViewCell.swift; sourceTree = "<group>"; };
+		CDBD655C1E9E2FD3000FB92D /* TripListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
+		CDBD655E1E9E3A28000FB92D /* CountryInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CountryInfo.plist; path = ../CountryInfo.plist; sourceTree = "<group>"; };
+		CDBD65621E9E4AC7000FB92D /* CountrySelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountrySelectTableViewController.swift; path = ../CountrySelectTableViewController.swift; sourceTree = "<group>"; };
+		CDBD65641E9E4B1B000FB92D /* CountrySelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrySelectTableViewCell.swift; sourceTree = "<group>"; };
+		CDBD65661E9E4DF1000FB92D /* ContinentalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContinentalView.xib; sourceTree = "<group>"; };
+		CDBD656C1E9E55D0000FB92D /* ContinentalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinentalView.swift; path = ../ContinentalView.swift; sourceTree = "<group>"; };
+		CDBD656E1E9E5AA4000FB92D /* arrowOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowOpen.png; sourceTree = "<group>"; };
+		CDBD656F1E9E5AA4000FB92D /* arrowClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowClose.png; sourceTree = "<group>"; };
+		CDC597061EAF4F09007092B6 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		CDC597081EAF5E5A007092B6 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +96,75 @@
 		CD1A6A2D1E94EB0B00208562 /* TravelByMyself */ = {
 			isa = PBXGroup;
 			children = (
+				CD9358E61E96609F000C0C4D /* addSpot.png */,
 				CD1A6A2E1E94EB0B00208562 /* AppDelegate.swift */,
-				CD1A6A301E94EB0B00208562 /* ViewController.swift */,
 				CD1A6A321E94EB0B00208562 /* Main.storyboard */,
-				CD1A6A351E94EB0B00208562 /* Assets.xcassets */,
+				CD9B41491EA6FE1C00C9149B /* SelectCountry */,
+				CDED8AD21EB065FD00E1769F /* Schedule */,
+				CDA46C261EC2F13A0060E493 /* TripList */,
+				CDA46C271EC2F1C80060E493 /* PocketSpot */,
+				CDA46C251EC2EFF50060E493 /* Menu */,
+				CD43DF4C1EC1CA5E00D6EC72 /* DataManager.swift */,
 				CD1A6A371E94EB0B00208562 /* LaunchScreen.storyboard */,
+				CDB96D2B1EB8EB0300205A99 /* Assets.xcassets */,
 				CD1A6A3A1E94EB0B00208562 /* Info.plist */,
 			);
 			path = TravelByMyself;
+			sourceTree = "<group>";
+		};
+		CD9B41491EA6FE1C00C9149B /* SelectCountry */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD656E1E9E5AA4000FB92D /* arrowOpen.png */,
+				CDBD656F1E9E5AA4000FB92D /* arrowClose.png */,
+				CDBD65661E9E4DF1000FB92D /* ContinentalView.xib */,
+				CDBD656C1E9E55D0000FB92D /* ContinentalView.swift */,
+				CD9B414A1EA71AC800C9149B /* SectionInfo.swift */,
+				CDBD65621E9E4AC7000FB92D /* CountrySelectTableViewController.swift */,
+				CDBD65641E9E4B1B000FB92D /* CountrySelectTableViewCell.swift */,
+				CDA92F351EA615E5006C4BF9 /* ContinentalGroup.swift */,
+				CD9B41471EA6FDB000C9149B /* Country.swift */,
+				CDBD655E1E9E3A28000FB92D /* CountryInfo.plist */,
+			);
+			name = SelectCountry;
+			sourceTree = "<group>";
+		};
+		CDA46C251EC2EFF50060E493 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD65541E9E2911000FB92D /* MenuCell.xib */,
+				CD52A6BA1E9CE2DB004FC259 /* MenuTableViewController.swift */,
+				CD52A6B81E9CE1A2004FC259 /* MenuTableViewCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		CDA46C261EC2F13A0060E493 /* TripList */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD655C1E9E2FD3000FB92D /* TripListViewController.swift */,
+				CDBD655A1E9E2E34000FB92D /* TripListTableViewCell.swift */,
+				CDBD65581E9E2C44000FB92D /* TripListCell.xib */,
+			);
+			name = TripList;
+			sourceTree = "<group>";
+		};
+		CDA46C271EC2F1C80060E493 /* PocketSpot */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A6A441E94F6AD00208562 /* PocketSpotTVC.swift */,
+				CD1A6A461E94F6DF00208562 /* PocketSpotTVCell.swift */,
+			);
+			name = PocketSpot;
+			sourceTree = "<group>";
+		};
+		CDED8AD21EB065FD00E1769F /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				CDC597081EAF5E5A007092B6 /* ScheduleTableViewCell.swift */,
+				CDC597061EAF4F09007092B6 /* ScheduleTableViewController.swift */,
+			);
+			name = Schedule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +227,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBD65591E9E2C44000FB92D /* TripListCell.xib in Resources */,
 				CD1A6A391E94EB0B00208562 /* LaunchScreen.storyboard in Resources */,
-				CD1A6A361E94EB0B00208562 /* Assets.xcassets in Resources */,
+				CD9358E71E96609F000C0C4D /* addSpot.png in Resources */,
+				CDBD65711E9E5AA4000FB92D /* arrowClose.png in Resources */,
+				CDB96D2C1EB8EB0300205A99 /* Assets.xcassets in Resources */,
 				CD1A6A341E94EB0B00208562 /* Main.storyboard in Resources */,
+				CDBD65551E9E2911000FB92D /* MenuCell.xib in Resources */,
+				CDBD65701E9E5AA4000FB92D /* arrowOpen.png in Resources */,
+				CDBD65671E9E4DF1000FB92D /* ContinentalView.xib in Resources */,
+				CDBD655F1E9E3A28000FB92D /* CountryInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +247,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD1A6A311E94EB0B00208562 /* ViewController.swift in Sources */,
+				CDC597071EAF4F09007092B6 /* ScheduleTableViewController.swift in Sources */,
+				CD9B41481EA6FDB000C9149B /* Country.swift in Sources */,
+				CDBD655D1E9E2FD3000FB92D /* TripListViewController.swift in Sources */,
+				CDBD656D1E9E55D0000FB92D /* ContinentalView.swift in Sources */,
+				CDBD65631E9E4AC7000FB92D /* CountrySelectTableViewController.swift in Sources */,
+				CDA92F361EA615E5006C4BF9 /* ContinentalGroup.swift in Sources */,
+				CD43DF4D1EC1CA5E00D6EC72 /* DataManager.swift in Sources */,
+				CD52A6B91E9CE1A2004FC259 /* MenuTableViewCell.swift in Sources */,
+				CDBD65651E9E4B1B000FB92D /* CountrySelectTableViewCell.swift in Sources */,
+				CD1A6A451E94F6AD00208562 /* PocketSpotTVC.swift in Sources */,
+				CD9B414B1EA71AC800C9149B /* SectionInfo.swift in Sources */,
+				CDC597091EAF5E5A007092B6 /* ScheduleTableViewCell.swift in Sources */,
+				CD52A6BB1E9CE2DB004FC259 /* MenuTableViewController.swift in Sources */,
+				CDBD655B1E9E2E34000FB92D /* TripListTableViewCell.swift in Sources */,
 				CD1A6A2F1E94EB0B00208562 /* AppDelegate.swift in Sources */,
+				CD1A6A471E94F6DF00208562 /* PocketSpotTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +428,7 @@
 				CD1A6A3F1E94EB0B00208562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
